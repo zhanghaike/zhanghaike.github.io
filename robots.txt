@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://haike.github.io/sitemap.xml
+Sitemap: https://zhanghaike.github.io/sitemap.xml
