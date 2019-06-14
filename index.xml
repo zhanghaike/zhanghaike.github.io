@@ -1,41 +1,123 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>海科</title>
-    <link>https://zhanghaike.github.io/</link>
-    <description>Recent content on 海科</description>
+    <title>海科－记录生活</title>
+    <link>https://zhanghaike.github,io/</link>
+    <description>Recent content on 海科－记录生活</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://zhanghaike.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://zhanghaike.github,io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>About</title>
+      <link>https://zhanghaike.github,io/about/</link>
+      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
+      
+      <guid>https://zhanghaike.github,io/about/</guid>
+      
+        <description>&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
+
+&lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;Cobra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;Viper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/jWalterWeatherman&#34;&gt;J Walter Weatherman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cast&#34;&gt;Cast&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>在github搭建hugo博客</title>
+      <link>https://zhanghaike.github,io/post/%E5%9C%A8github%E6%90%AD%E5%BB%BAhugo%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhanghaike.github,io/post/%E5%9C%A8github%E6%90%AD%E5%BB%BAhugo%E5%8D%9A%E5%AE%A2/</guid>
+      
+        <description>
+
+&lt;h3 id=&#34;安装hugo&#34;&gt;安装hugo  ,&lt;/h3&gt;
+
+&lt;p&gt;可按照这个&lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane/blob/master/README-zh.md&#34;&gt;xianmin&lt;/a&gt;的这个教程教程..&lt;/p&gt;
+
+&lt;h3 id=&#34;自动化部署&#34;&gt;自动化部署&lt;/h3&gt;
+
+&lt;p&gt;我有一个&lt;a href=&#34;https://www.vultr.com/?ref=7713257&#34;&gt;vultr&lt;/a&gt;的vps,把不管是哪个终端写的文章同步到vps 上，在vps上打包上传部署。&lt;br /&gt;
+同步软件用的syncthing。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pacman -S syncthing
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;同步脚本&lt;br /&gt;
+本机新建本机脚本。如：ssh.sh&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/bin/bash
+ssh root@你的vps的ip &amp;quot;sh blog.sh&amp;quot;　　　＃“”内容为登录上vps后执行的脚本
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;vps脚本,根目录新建blog.sh文件&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/bin/bash
+cd ~/blog
+hugo
+cd ~/blog/public
+git add -A
+git commit -m &amp;quot;first commit&amp;quot;
+git remote add origin git@github.com:zhanghaike/haike.github.io.git
+git push -u origin master
+cd ~/blog
+git init
+git add .
+git commit -m &amp;quot;blog&amp;quot;
+git remote add origin git@github.com:zhanghaike/blog.git
+git push -u origin master
+cd ~
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;完成&#34;&gt;完成&lt;/h3&gt;
+
+&lt;p&gt;这样写好了直接sh ssh.sh就好了。
+对了我写.md用的是 &lt;a href=&#34;https://github.com/tamlok/vnote/blob/master/README_zh.md&#34;&gt;vnote&lt;/a&gt;　&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>桂枝汤腹诊</title>
-      <link>https://zhanghaike.github.io/%E6%A1%82%E6%9E%9D%E6%B1%A4%E8%85%B9%E8%AF%8A/</link>
+      <link>https://zhanghaike.github,io/post/%E6%A1%82%E6%9E%9D%E6%B1%A4%E8%85%B9%E8%AF%8A/</link>
       <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://zhanghaike.github.io/%E6%A1%82%E6%9E%9D%E6%B1%A4%E8%85%B9%E8%AF%8A/</guid>
+      <guid>https://zhanghaike.github,io/post/%E6%A1%82%E6%9E%9D%E6%B1%A4%E8%85%B9%E8%AF%8A/</guid>
       
         <description>
 
 &lt;h1 id=&#34;桂枝汤腹诊&#34;&gt;桂枝汤腹诊&lt;/h1&gt;
 
-&lt;p&gt;桂枝汤的诊法，首先必须这个人有自汗或有汗出，微热或不热。如果这个人无汗并伴有高烧，是千万用不得的。　　
-脉象为：浮弱，浮数　　
-腹诊：触诊皮肤有松弛柔软，右侧腹直肌有挛急。　　
-汤本求真曰：&lt;strong&gt;由余之经验，芍药，大枣，甘草之证，必诊得肌肉之挛急，而就中成游离状态之腹直肌最能明确触知之。&lt;/strong&gt;　　　&lt;/p&gt;
+&lt;p&gt;桂枝汤的诊法，首先必须这个人有自汗或有汗出，微热或不热。如果这个人无汗并伴有高烧，是千万用不得的.&lt;/p&gt;
+
+&lt;p&gt;脉象为：浮弱，浮数&lt;/p&gt;
+
+&lt;p&gt;腹诊：触诊皮肤有松弛柔软，右侧腹直肌有挛急。&lt;/p&gt;
+
+&lt;p&gt;汤本求真曰：&lt;strong&gt;由余之经验，芍药，大枣，甘草之证，必诊得肌肉之挛急，而就中成游离状态之腹直肌最能明确触知之。&lt;/strong&gt;&lt;/p&gt;
 </description>
       
     </item>
     
     <item>
       <title>关于我以后的思考</title>
-      <link>https://zhanghaike.github.io/%E5%85%B3%E4%BA%8E%E6%88%91%E4%BB%A5%E5%90%8E%E7%9A%84%E6%80%9D%E8%80%83/</link>
+      <link>https://zhanghaike.github,io/post/%E5%85%B3%E4%BA%8E%E6%88%91%E4%BB%A5%E5%90%8E%E7%9A%84%E6%80%9D%E8%80%83/</link>
       <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://zhanghaike.github.io/%E5%85%B3%E4%BA%8E%E6%88%91%E4%BB%A5%E5%90%8E%E7%9A%84%E6%80%9D%E8%80%83/</guid>
+      <guid>https://zhanghaike.github,io/post/%E5%85%B3%E4%BA%8E%E6%88%91%E4%BB%A5%E5%90%8E%E7%9A%84%E6%80%9D%E8%80%83/</guid>
       
         <description>
 
@@ -58,10 +140,10 @@
     
     <item>
       <title>太阳病总论</title>
-      <link>https://zhanghaike.github.io/%E5%A4%AA%E9%98%B3%E7%97%85%E6%80%BB%E8%AE%BA/</link>
+      <link>https://zhanghaike.github,io/post/%E5%A4%AA%E9%98%B3%E7%97%85%E6%80%BB%E8%AE%BA/</link>
       <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://zhanghaike.github.io/%E5%A4%AA%E9%98%B3%E7%97%85%E6%80%BB%E8%AE%BA/</guid>
+      <guid>https://zhanghaike.github,io/post/%E5%A4%AA%E9%98%B3%E7%97%85%E6%80%BB%E8%AE%BA/</guid>
       
         <description>
 
@@ -80,10 +162,10 @@
     
     <item>
       <title>桂枝汤</title>
-      <link>https://zhanghaike.github.io/%E6%A1%82%E6%9E%9D%E6%B1%A4/</link>
+      <link>https://zhanghaike.github,io/post/%E6%A1%82%E6%9E%9D%E6%B1%A4/</link>
       <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://zhanghaike.github.io/%E6%A1%82%E6%9E%9D%E6%B1%A4/</guid>
+      <guid>https://zhanghaike.github,io/post/%E6%A1%82%E6%9E%9D%E6%B1%A4/</guid>
       
         <description>
 
@@ -108,10 +190,10 @@
     
     <item>
       <title>Archlinux自动运行程序</title>
-      <link>https://zhanghaike.github.io/archlinux%E8%87%AA%E5%8A%A8%E8%BF%90%E8%A1%8C%E7%A8%8B%E5%BA%8F/</link>
+      <link>https://zhanghaike.github,io/post/archlinux%E8%87%AA%E5%8A%A8%E8%BF%90%E8%A1%8C%E7%A8%8B%E5%BA%8F/</link>
       <pubDate>Wed, 15 May 2019 18:56:20 +0800</pubDate>
       
-      <guid>https://zhanghaike.github.io/archlinux%E8%87%AA%E5%8A%A8%E8%BF%90%E8%A1%8C%E7%A8%8B%E5%BA%8F/</guid>
+      <guid>https://zhanghaike.github,io/post/archlinux%E8%87%AA%E5%8A%A8%E8%BF%90%E8%A1%8C%E7%A8%8B%E5%BA%8F/</guid>
       
         <description>&lt;p&gt;在/etc/profile.d/新建.sh文件&lt;br /&gt;
 具体可参考&lt;a href=&#34;https://wiki.archlinux.org/index.php/Autostarting_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)&#34;&gt;Autostarting&lt;/a&gt;&lt;/p&gt;
@@ -121,10 +203,10 @@
     
     <item>
       <title>shell脚本编辑</title>
-      <link>https://zhanghaike.github.io/shell%E8%84%9A%E6%9C%AC%E7%BC%96%E8%BE%91/</link>
+      <link>https://zhanghaike.github,io/post/shell%E8%84%9A%E6%9C%AC%E7%BC%96%E8%BE%91/</link>
       <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://zhanghaike.github.io/shell%E8%84%9A%E6%9C%AC%E7%BC%96%E8%BE%91/</guid>
+      <guid>https://zhanghaike.github,io/post/shell%E8%84%9A%E6%9C%AC%E7%BC%96%E8%BE%91/</guid>
       
         <description>&lt;p&gt;用vim或vi编辑一个带.sh后缀的文件。第一行一般是这样的：&lt;/p&gt;
 
