@@ -83,16 +83,34 @@
   </url>
   
   <url>
-    <loc>https://zhanghaike.github.io/categories/%E5%A4%AA%E9%98%B3%E7%97%85/</loc>
-    <lastmod>2019-05-16T00:00:00+00:00</lastmod>
+    <loc>https://zhanghaike.github.io/post/%E5%85%B3%E4%BA%8E%E6%88%91%E4%BB%A5%E5%90%8E%E7%9A%84%E6%80%9D%E8%80%83/</loc>
+    <lastmod>2019-05-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhanghaike.github.io/tags/%E6%80%9D%E8%80%83/</loc>
+    <lastmod>2019-05-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zhanghaike.github.io/post/%E5%85%B3%E4%BA%8E%E6%88%91%E4%BB%A5%E5%90%8E%E7%9A%84%E6%80%9D%E8%80%83/</loc>
+    <loc>https://zhanghaike.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2019-05-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhanghaike.github.io/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2019-05-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhanghaike.github.io/categories/%E5%A4%AA%E9%98%B3%E7%97%85/</loc>
     <lastmod>2019-05-16T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -115,28 +133,10 @@
   </url>
   
   <url>
-    <loc>https://zhanghaike.github.io/tags/%E6%80%9D%E8%80%83/</loc>
-    <lastmod>2019-05-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://zhanghaike.github.io/post/%E6%A1%82%E6%9E%9D%E6%B1%A4/</loc>
     <lastmod>2019-05-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhanghaike.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2019-05-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhanghaike.github.io/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2019-05-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
