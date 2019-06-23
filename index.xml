@@ -6,7 +6,7 @@
     <description>Recent content on 海科－记录生活</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Jun 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://zhanghaike.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -30,6 +30,28 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>儿子的近视记录</title>
+      <link>https://zhanghaike.github.io/post/%E5%B0%8F%E5%AD%A9%E7%9A%84%E8%BF%91%E8%A7%86%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Sun, 23 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhanghaike.github.io/post/%E5%B0%8F%E5%AD%A9%E7%9A%84%E8%BF%91%E8%A7%86%E8%AE%B0%E5%BD%95/</guid>
+      
+        <description>
+
+&lt;p&gt;儿子的眼睛近视了，就是这两年的事情，这怪我们太大意了，这两年天天看手机，就这两年就近视了，去医院查已经４００度了。以此文记录儿子的眼睛变化。&lt;br /&gt;
+所采取的应对方法，绝对不能玩手机。&lt;br /&gt;
+少量吃中成药。&lt;br /&gt;
+放学在家不带眼镜。他说带眼镜后摘下看东西会模糊，需要等一会才会清楚。那如果按照一天到晚戴着不取，只是睡觉取下来，长久以来会不会越来月近视。所以只是需要戴眼镜时才戴，不需要时就不戴的方针。&lt;br /&gt;
+第一次检查的单子配眼镜的拿了，没有记录，从第二次开始&lt;/p&gt;
+
+&lt;h5 id=&#34;2019年６月２３日&#34;&gt;2019年６月２３日&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zhanghaike/zhaopian/master/IMG_20190623_163628.jpg?token=AD2JONQV2OWHXERUDLNA45K5B5AMS =800x600&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
       
     </item>
@@ -101,7 +123,7 @@ hugo
 cd ~/blog/public
 git add -A
 git commit -m &amp;quot;first commit&amp;quot;
-git remote add origin git@github.com:zhanghaike/haike.github.io.git
+git remote add origin git@github.com:zhanghaike/zhanghaike.github.io.git
 git push -u origin master
 cd ~/blog
 git init
